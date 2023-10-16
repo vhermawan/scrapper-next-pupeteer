@@ -1,0 +1,38 @@
+{
+  "name": "scrapper-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/server": "^11.11.0",
+    "@mantine/core": "6.0.21",
+    "@mantine/hooks": "6.0.21",
+    "@mantine/next": "^6.0.21",
+    "@mantine/notifications": "^6.0.17",
+    "@tanstack/react-query": "^4.36.1",
+    "axios": "^1.5.1",
+    "mantine-datatable": "^6.0.0",
+    "next": "13.5.4",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@tabler/icons-react": "^2.39.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8",
+    "eslint-config-next": "13.5.4",
+    "postcss": "^8.4.31",
+    "puppeteer": "^21.3.8",
+    "typescript": "^5",
+    "xlsx": "^0.18.5"
+  }
+}
