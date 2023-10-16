@@ -36,7 +36,8 @@ export function TableLecturer(){
         message: 'Success scrapping data!',
       })
     },
-    onError: () => {
+    onError: (error) => {
+      console.log('error',error)
       notifications.show({
         title: 'Failed',
         message: 'Failed scrapping data',
